@@ -3,7 +3,7 @@
 
 #include <TinyGPS.h> 
 #include <Wire.h>
-
+#include <avr/eeprom.h>
 
 #define WP_10_BYTES 10
 #define WP_START_BYTE 0x18
